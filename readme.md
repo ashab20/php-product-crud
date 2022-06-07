@@ -9,13 +9,6 @@ create table products(product_id int not null primary key auto_increment, produc
 ```
 
 
-| product_id | product_name     | qty  | price | manufature_time |
-| :-------- | :------- | :-------- | :------- | : ---------- |
-| 1      | Iphone| 3250 | 5 | 2012-06-17 |
-
-
-
-
 _INSERT DATA:_
 ```
 insert into products set product_name='Iphone', price=3250, qty=5, manufature_time='2012-06-17', created_at=now();
